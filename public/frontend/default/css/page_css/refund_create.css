@@ -1,0 +1,19 @@
+.product_img_div {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+}
+.product_img_div img {
+    max-width: 100px;
+    max-height: 100px;
+}
+.product_name_color{
+    color: var(--text_color);
+}
+.product_name_color:hover{
+    color: var(--base_color);
+}
